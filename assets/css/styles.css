@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #000;
+    --alpha: #008791;
+    --beta: #00b1be;
+    --primary: #fefdfd;
+    --secondary: rgb(255, 55, 0);
+}
+
+header {
+    background-color: var(--dark);
+}
+
+header h1{
+    text-align: left;
+    color: var(--primary);
+    text-shadow: 0.1rem 0.15rem var(--secondary);
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: var(--beta);
+}
+
+.hero-banner {
+    color: var(--primary);
+    background-color: #008791;
+}
+
+#work {
+    text-align: left;
+    color: var(--alpha);
+    background-color: var(--primary);
+}
+
+#about {
+    background-color: var(--alpha);
+}
+
+#about h2{
+    text-align: center;
+}
+
+#about p{
+    text-align: center;
+}
+
+.flex-container {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--secondary);
+}
+
+address a {
+    color: var(--primary);
+}
